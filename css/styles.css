@@ -95,7 +95,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text);
-  width: 1200px;
+  width: auto;
 }
 img {
   display: block;
@@ -166,7 +166,6 @@ a {
 .title-3 {
   font-weight: 700;
   letter-spacing: 0.03em;
-
   color: var(--title-color);
 }
 .title-2 {
@@ -230,6 +229,7 @@ a {
 }
 .link-too {
   margin-right: 50px;
+  width: 145px;
 }
 
 .link-active {
@@ -254,6 +254,7 @@ nav .link {
   display: flex;
   flex-wrap: nowrap;
   margin-left: auto;
+  margin-top: 0;
 }
 .list {
   display: flex;
@@ -293,12 +294,13 @@ nav .link {
   color: var(--adress-color);
 }
 .header {
-  /* padding: 25px 215px; */
+  padding-top: 25px;
+  padding-bottom: 25px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .legend {
@@ -312,7 +314,7 @@ nav .link {
   padding-right: 215px;
   /* padding-top: 94px;
   padding-bottom: 94px; */
-  /* width: 1600px; */
+  /* width: 1170px; */
   align-items: center;
   margin-left: auto;
   margin-right: auto;
