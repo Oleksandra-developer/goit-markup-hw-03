@@ -123,7 +123,8 @@ ul {
 .link-logo,
 .logo-1,
 .link,
-.link-active {
+.link-active,
+.link-too {
   display: inline-block;
 }
 .bg-footer {
@@ -197,7 +198,10 @@ nav .link {
 .link:active {
   color: var(--accent-color);
 }
-
+.link-too:hover,
+.link-too:focus {
+  color: var(--accent-color);
+}
 .bg-footer .logo-1,
 .bg-footer .adress {
   color: var(--white);

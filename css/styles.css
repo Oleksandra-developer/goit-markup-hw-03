@@ -286,6 +286,10 @@ nav .link {
 .link:focus {
   color: var(--accent-color);
 }
+.link-too:hover,
+.link-too:focus {
+  color: var(--accent-color);
+}
 .bg-footer .logo-1,
 .bg-footer .adress {
   color: var(--white);
