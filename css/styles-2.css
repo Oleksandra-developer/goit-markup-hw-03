@@ -120,12 +120,19 @@ ul {
   list-style: none;
 }
 .logo,
-.link-logo,
 .logo-1,
 .link,
-.link-active,
-.link-too {
+.link-active {
   display: inline-block;
+}
+.links-start {
+  display: flex;
+  align-items: center;
+}
+.links-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .bg-footer {
   background-color: var(--hero-bg);
@@ -157,15 +164,13 @@ ul {
 }
 .logo {
   color: var(--accent-color);
-  margin: 24px 93px 25px 215;
+  margin-right: 93px;
 }
 .logo-1 {
   color: var(--title-color);
 }
 .link-active,
-.link-logo,
-.link,
-.link-too {
+.link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -178,12 +183,7 @@ ul {
 .link:not(:last-child) {
   margin-right: 50px;
 }
-.link-too {
-  margin-right: 50px;
-}
-.link-logo {
-  margin-right: 93px;
-}
+
 .link-active {
   color: var(--accent-color);
 }
@@ -198,10 +198,7 @@ nav .link {
 .link:active {
   color: var(--accent-color);
 }
-.link-too:hover,
-.link-too:focus {
-  color: var(--accent-color);
-}
+
 .bg-footer .logo-1,
 .bg-footer .adress {
   color: var(--white);
@@ -215,17 +212,15 @@ button:active {
   color: var(--white);
 }
 .header {
-  padding: 25px 215px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  /* height: 80px; */
 }
 .contacts-1 {
   display: flex;
-  flex-wrap: nowrap;
   margin-left: auto;
-  margin-right: -50px;
+  /* justify-content: flex-end; */
+  margin-top: 0;
 }
 .visually-hidden {
   position: absolute !important;
@@ -244,16 +239,17 @@ button:active {
   margin-top: 9px;
 }
 .container {
-  padding-left: 215px;
-  padding-right: 215px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  /* width: 1600px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
 }
-
+.grand-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .list-btn {
   display: flex;
   flex-wrap: nowrap;
@@ -266,7 +262,6 @@ button:active {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* text-align: center; */
   letter-spacing: 0.06em;
   color: var(--title-color);
 }
