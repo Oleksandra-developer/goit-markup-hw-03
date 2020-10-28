@@ -137,7 +137,8 @@ ul {
 .bg-footer {
   background-color: var(--hero-bg);
   margin: 0;
-  padding: 60px 215px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .button {
@@ -176,7 +177,7 @@ ul {
   line-height: 1.143;
   letter-spacing: 0.02em;
 }
-.link,
+
 .link-active {
   margin-right: 50px;
 }

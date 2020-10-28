@@ -376,7 +376,7 @@ nav .link {
   margin-top: 20px;
   /* height: 20px; */
 }
-.contact-footer:not(:first-child) {
+.contact-footer {
   margin-top: 9px;
 }
 .bg-footer {
